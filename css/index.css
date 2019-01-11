@@ -90,10 +90,44 @@ p {
 .top-content img {
     padding: 20px 0;
 }
+.intro img {
+    padding: 20px 0;
+}
+.intro h2 {
+    padding: 20px 20px 0 20px;
+}
+ .intro p {
+     padding: 0 20px 20px 20px;
+     border-bottom: 1px dashed black;
+ }
 
 .container {
     width: 800px;
     margin: 0 auto;
+}
+/*About Page*/
+
+div .body {
+    border: 1px solid red;
+    padding: 20px 15px 0px 15px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+div .body section{
+    width: 370px;
+    padding-bottom: 15px;
+    border-bottom: 0.75px dashed gray;
+    margin-bottom: 40px;
+}
+
+div .body section h2 {
+    padding-top: 10px;
+}
+
+div .body section button {
+    padding: 7.5px 15px;
 }
 
 .top-content {
