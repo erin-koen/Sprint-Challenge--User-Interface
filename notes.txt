@@ -1,1 +1,2 @@
 Making a small change here but keeping this page open for notes. 
+- linking to images in the directory
