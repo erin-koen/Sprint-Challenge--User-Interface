@@ -90,6 +90,13 @@ p {
 .top-content img {
     padding: 20px 0;
 }
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+/*About Page*/
+
 .intro img {
     padding: 20px 0;
 }
@@ -101,14 +108,8 @@ p {
      border-bottom: 1px dashed black;
  }
 
-.container {
-    width: 800px;
-    margin: 0 auto;
-}
-/*About Page*/
-
 div .body {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding-top: 20px;
     display: flex;
     flex-flow: row wrap;
@@ -133,8 +134,14 @@ div .body section button {
     border-radius: 7.5px;
     border: 3px solid black;
     margin-top: 20px;
-
 }
+
+.conclusion h2 {
+    padding: 0px 20px 0 20px;
+}
+ .conclusion p {
+     padding: 0 20px 20px 20px;
+ }
 
 
 
