@@ -66,10 +66,84 @@ p {
     line-height: 1.4;
 }
 
+/* EEK'S CODE STARTS HERE */
+.menu {
+    width: 800px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 20px 0;
+
+}   
+
+.menu img {
+    padding-right: 20px;
+}
+
+.menu nav a{
+     color: #000;
+     text-decoration: none;
+     padding-right: 40px;
+
+ }
+
+.top-content img {
+    padding: 20px 0;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
 }
+/*About Page*/
+
+.intro img {
+    padding: 20px 0;
+}
+.intro h2 {
+    padding: 20px 20px 0 20px;
+}
+ .intro p {
+     padding: 0 20px 20px 20px;
+     border-bottom: 1px dashed black;
+ }
+
+div .body {
+    /* border: 1px solid red; */
+    padding-top: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+div .body section{
+    width: 370px;
+    padding-bottom: 15px;
+    border-bottom: 0.75px dashed gray;
+    margin-bottom: 40px;
+}
+
+div .body section h2 {
+    padding-top: 10px;
+}
+
+div .body section button {
+    padding: 7.5px 15px 7.5px 15px;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 7.5px;
+    border: 3px solid black;
+    margin-top: 20px;
+}
+
+.conclusion h2 {
+    padding: 0px 20px 0 20px;
+}
+ .conclusion p {
+     padding: 0 20px 20px 20px;
+ }
+
+
 
 .top-content {
     display: flex;
